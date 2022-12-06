@@ -5,39 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Dr. Ras Fernando // Web Developer</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <h1>Dr. Ras Fernando</h1>
     <nav>
+        <ul>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+              <a href="#work">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
-
+  <!-- hero banner 
+  <section class="hero-banner"></section>
+-->
   <main class="page-wrapper">
     <!-- about me -->
+    <h2>About Me</h2>
     <section class="page-section" id="about">
-      <h2>About Me</h2>
+      <img src="images/Profile.jpg" alt="Profile Picture">
+    <p>Hi there! I'm Ras, I am a Product Management executive who has spent his career
+      developing and launching commercially successful products and
+      services. I have a passion for delivering leading-edge technologies which
+      address unmet societal needs - and I am constantly on the lookout for both. 
+      I am also a Front End Web Developer with a foundational knowledge of HTML,CSS and Java. 
+      When I'm not writing user stories or code, I'm writing music! Check out 
+      my songs by following the Spotify link below!
+    </p>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
+      <h2>Portfolio</h2>
+    </section>
+    <section id="categoryGrid">
+      <a id="sofarsounds" class="categoryGridArea" href="https://www.sofarsounds.com">
+        <div class="heading">Sofar Sounds</div>
+        </a>
+      <a id="popplayer" class="categoryGridArea" href="https://www.popfun.co.uk/pop-player/">
+        <div class="heading">POP Player</div>
+        </a>
+      <a id="nowtv" class="categoryGridArea" href="https://www.nowtv.com/home/existing">
+        <div class="heading">NowTV</div>
+        </a>
+      <a id="skyq" class="categoryGridArea" href="https://www.sky.com/tv/sky-q">
+        <div class="heading">SkyQ</div>
+        </a>
+      <a id="pollen" class="categoryGridArea" href="https://twitter.com/pollenuk?lang=en">
+        <div class="heading">Pollen</div>
+        </a>
     </section>
 
     <!-- contact -->
+    <h2>Contact Me</h2>
     <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+      <a href="https://www.linkedin.com/in/ras-fernando/" class="linkedin"><img src="./images/LinkedIn_icon_circle.svg.png" alt="LinkedIn Page"></a>
+      <a href="https://github.com/rasfernando" class="github"><img src="./images/github_icon_circle.png" alt="GitHub Profile"></a>
+      <a href="https://open.spotify.com/artist/1er1wsgqp7q3AWSxN63DV7?si=OyfYjQGESnCwuhPvFe-SAg" class="spotify"><img src="./images/spotify_icon_circle.png" alt="Spotify Artist Page"></a>
     </section>
   </main>
 </body>
